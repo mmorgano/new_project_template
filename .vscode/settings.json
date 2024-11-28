@@ -1,0 +1,20 @@
+{
+    "python.pythonPath": "${workspaceFolder}/.venv/Scripts/python",
+    "python.envFile": "${workspaceFolder}/.env_local.sh",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.autopep8Path": "${workspaceFolder}/.venv/Scripts/autopep8",
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        120
+    ],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/*.pyc": true,
+        "**/.venv": true,
+        "**/.vscode": false,
+        "**/.git": true
+    }
+}

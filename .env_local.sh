@@ -1,0 +1,7 @@
+export PROXY_USERNAME="your_username"
+export PROXY_PASSWORD="your_password"
+export PROXY_HOST="your_proxy_host"
+export PROXY_PORT="your_proxy_port"
+export PROXY_PORT_HTTPS="your_proxy_port"
+export http_proxy="http://${PROXY_USERNAME}:${PROXY_PASSWORD}@${PROXY_HOST}:${PROXY_PORT}"
+export https_proxy="http://${PROXY_USERNAME}:${PROXY_PASSWORD}@${PROXY_PORT_HTTPS}:${PROXY_PORT}"

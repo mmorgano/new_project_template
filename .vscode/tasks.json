@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Data Processing Script",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python",
+            "args": [
+                "${workspaceFolder}/src/main.py"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Activate .venv",
+            "type": "shell",
+            "command": "source ${workspaceFolder}/.venv/Scripts/activate",
+            "problemMatcher": [],
+            "detail": "Activate the virtual environment"
+        }
+    ]
+}
