@@ -21,3 +21,4 @@ A simple and reusable template to standardize the creation of Python projects. T
 1. **Clone this repository** as the base for your new project:
    ```bash
    git clone https://github.com/mmorgano/python-project-template.git new-project-name
+   ```
